@@ -1,0 +1,23 @@
+{
+  "name": "work-manager",
+  "version": "1.0.0",
+  "description": "a simple management fro work",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "work"
+  ],
+  "author": "murtuza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
